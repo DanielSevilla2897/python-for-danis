@@ -4,7 +4,7 @@ Curso de python para Danis. Sencillo y detallado
 
 Indice:
 
-[subject](01-Introducción/README.md)
+[- Introducción](01-Introducción)
 
 Herramientas utilizadas: 
 
