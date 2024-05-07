@@ -4,7 +4,7 @@ Curso de python para Danis. Sencillo y detallado
 
 Indice:
 
-[- Introducción](01-Introducción)
+- [Introducción](01-Introducción)
 
 Herramientas utilizadas: 
 
