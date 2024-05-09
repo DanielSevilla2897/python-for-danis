@@ -63,3 +63,52 @@ print(indice)  # Salida: 18
 
 
 ```
+
+## Fragmentación de cadenas de texto
+El uso de la sintaxis [::] en Python permite fragmentar cadenas de texto utilizando la técnica conocida como "slicing".
+
+### Slicing básico
+```python
+
+cadena = "Python es genial"
+resultado = cadena[2:6]  # Extrae desde el tercer hasta el sexto carácter
+print(resultado)  # Salida: thon
+
+```
+
+### Slicing con paso
+```python
+
+cadena = "Python es genial"
+resultado = cadena[::2]  # Extrae cada segundo carácter
+print(resultado)  # Salida: Pto sgnl
+
+```
+
+### Slicing en orden inverso
+```python
+
+cadena = "Python es genial"
+resultado = cadena[::-1]  # Invierte la cadena
+print(resultado)  # Salida: laing seg se nohtyP
+
+```
+
+### Sligin con índices negativos
+```python
+
+cadena = "Python es genial"
+resultado = cadena[-5:-1]  # Extrae desde el quinto carácter desde el final hasta el segundo desde el final
+print(resultado)  # Salida: enia
+
+```
+
+### Slicing con índices fuera de rango
+```python
+
+cadena = "Python es genial"
+resultado = cadena[20:]  # Extrae desde el vigésimo carácter hasta el final
+print(resultado)  # Salida: ''
+
+```
+
