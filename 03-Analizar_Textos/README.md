@@ -1,6 +1,39 @@
 # Analizar de textos
 En esta sección se va a explicar los metodos utilizados para analizar y procesar textos.
 
+## Propiedades
+Las propiedades de las cadenas de texto son las siguientes:
+
+- Inmutabilidad: Un string no puede cambiar sus caracteres en la misma variable
+- Concatenable.
+- Multiplicables: Se puede multiplicar un string concatenandolo x veces. 
+```python
+
+nombre = "Dani"
+print(nombre*5) #Sailda: DaniDaniDaniDaniDani
+
+```
+- Multilineales: Añadiendo 3 dobles comillas se puede escribir el texto con saltos de linea.
+```python
+texto_con_saltos = """Mil pequeños peces blancos        
+comosi hirviera
+el color del agua"""
+```
+- Verificar si contiene: Se puede imprimir si una cadena se encuentra dentro de un string.
+```python
+nombre = "Daniel Sevilla"
+print("Sevilla" in nombre)   #Result: true
+print("Carlos" in nombre)    #Result: false
+```
+- Longitud de un string: Con el metodo len(string) te devuelve el número de caracteres.
+```python
+texto_con_saltos = """Mil pequeños peces blancos        
+comosi hirviera
+el color del agua"""                                #Con triples dobles comillas se pueden poner saltos de linea
+
+print(len(texto_con_saltos))                        #Result: 68
+```
+
 ## Posición de caracteres. Index()
 
 El método index() en Python se utiliza también con cadenas de texto para encontrar la posición de la primera ocurrencia de un subtexto dentro de una cadena más grande. Tener cuidado porque si no encuentra el caracter, la aplicación se detendrá.
@@ -112,3 +145,22 @@ print(resultado)  # Salida: ''
 
 ```
 
+## Métodos String
+
+### upper()
+Este método convierte todos los caracteres de una cadena en mayúsculas. Ejemplo: "hello".upper() devuelve "HELLO".
+
+### lower()
+Convierte todos los caracteres de una cadena en minúsculas. Ejemplo: "Hello".lower() devuelve "hello".
+
+### split()
+Divide una cadena en subcadenas utilizando un separador especificado y devuelve una lista de las subcadenas. Ejemplo: "apple,banana,orange".split(",") devuelve ['apple', 'banana', 'orange'].
+
+### join()
+Une los elementos de un iterable (como una lista) usando la cadena como separador. Ejemplo: " ".join(['apple', 'banana', 'orange']) devuelve "apple banana orange".
+
+### find()
+Encuentra la primera ocurrencia de una subcadena dentro de una cadena y devuelve su índice. Ejemplo: "hello".find("l") devuelve 2.
+
+### replace()
+Reemplaza todas las ocurrencias de una subcadena con otra en una cadena y devuelve una nueva cadena. Ejemplo: "hello".replace("l", "L") devuelve "heLLo".
