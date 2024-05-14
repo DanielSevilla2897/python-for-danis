@@ -232,7 +232,7 @@ print(mi_diccionario.items())  # Salida: dict_items([('nombre', 'Juan'), ('edad'
 
 ```
 
-# Tuples
+# Analizar Tuples
 Las tuplas en Python son secuencias ordenadas e inmutables de elementos. Se definen utilizando paréntesis () y pueden contener cualquier tipo de datos, incluidos números, cadenas, listas u otras tuplas. A diferencia de las listas, las tuplas no pueden modificarse una vez creadas, lo que significa que no se pueden agregar, eliminar o modificar elementos individualmente.
 Las tuplas son útiles cuando se necesita una secuencia ordenada de elementos que no debe modificarse, como coordenadas geográficas, fechas o valores constantes.
 
@@ -275,7 +275,7 @@ print(mi_tupla.index(2))  # Salida: 1
 
 ```
 
-# Sets
+# Analizar Sets
 Los sets en Python son una colección desordenada de elementos únicos. Se definen utilizando llaves {} o la función set(). Los sets no admiten elementos duplicados y son útiles para eliminar duplicados de otras colecciones, así como para realizar operaciones de conjuntos como unión, intersección y diferencia.
 
 ```python
@@ -358,7 +358,7 @@ print(len(mi_set))  # Salida: 5
 
 ```
 
-# Booleanos
+# Analizar Booleanos
 Los booleanos son un tipo de dato en programación que puede tener uno de dos valores: Verdadero (True) o Falso (False). Estos valores son fundamentales para la lógica de control de flujo y las operaciones de comparación en muchos lenguajes de programación. Se pueden decinir con el metodo bool()
 
 ```python
