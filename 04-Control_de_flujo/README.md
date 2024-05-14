@@ -29,7 +29,7 @@ print(resultado)  # Salida: True
 
 ```
 
-### AND 
+### NOT 
 Invierte el valor de verdad de una expresión.
 
 ```python
@@ -204,7 +204,7 @@ lista3 = list(range(1, 10, 2))  # [1, 3, 5, 7, 9]
 ## Método enumerate
 La función enumerate() en Python se utiliza para iterar sobre una secuencia (como una lista, tupla o cadena) mientras se mantiene un contador para el índice. 
 
-## Ejemplo general
+### Ejemplo general
 Se puede utilizar enumerate() para crear una lista de tuplas donde cada tupla contiene un índice y un valor.
 
 ```python
@@ -215,7 +215,7 @@ print(lista_enum)
 
 ```
 
-## Ejemplo con for
+### Ejemplo con for
 
 ```python
 
