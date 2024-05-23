@@ -11,7 +11,7 @@ print(mi_archivo.readline())        ## Se lee la segunda linea. Se guarda el pun
 print(mi_archivo.readline())        ## Se lee la tercera linea. Se guarda el puntero al final de la tercera linea.
 mi_archivo.close()                  ## Se cierra el archivo
 
-mi_archivo = open('texto1.txt')     ## Se vuelve a abrir el archivo. 
+mi_archivo = open('texto1.txt')              ## Se vuelve a abrir el archivo. 
 print(mi_archivo.readline().rstrip())        ## Hace lo mismo pero sin saltos de linea gracias al metodo rstrip()
 print(mi_archivo.readline().rstrip())        
 print(mi_archivo.readline().rstrip())        
@@ -27,4 +27,20 @@ todas = mi_archivo.readlines()      ##Esto lee todo el fichero y lo mete en una 
 print(todas)
 todas = todas.pop()
 print(todas)
+mi_archivo.close()
+
+### 
+mi_archivo = open('texto1.txt')
+lista = mi_archivo.readlines()
+print(lista[1])                     # Esto imprime la segunda linea del archivo
+mi_archivo.close()
+
+
+##
+mi_archivo = open('texto1.txt')
+print(mi_archivo.read())
+mi_archivo.close()
+
+mi_archivo = open('texto1.txt')
+print(mi_archivo.readline());
 mi_archivo.close()
